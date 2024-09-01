@@ -1,0 +1,2 @@
+var e=globalThis.parcelRequire77dd;(0,e.register)("c0lCW",function(r,o){Object.defineProperty(r.exports,"__esModule",{value:!0,configurable:!0}),Object.defineProperty(r.exports,"default",{get:()=>t,set:void 0,enumerable:!0,configurable:!0});var l=e("gMVWb");e("k5w0m");var t=()=>/*#__PURE__*/(0,l.jsx)("div",{children:/*#__PURE__*/(0,l.jsx)("h1",{children:"HEllo from the grocery component"})})});
+//# sourceMappingURL=grocery.f202acc5.js.map
