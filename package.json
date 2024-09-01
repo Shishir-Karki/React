@@ -4,7 +4,7 @@
   "description": "This is a react by shishir",
   "scripts": {
     "start": "parcel src/index.html",
-    "build": "parcel build src/index.html",
+    "build": "parcel build src/index.html --dist-dir dist",
     "test": "jest"
   },
   "keywords": [
