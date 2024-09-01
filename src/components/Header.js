@@ -34,9 +34,7 @@ const Header =()=>{
                 <li className="px-8">
                     <Link to="/contact">Contact Us</Link>
                 </li>
-                <li className="px-8">
-                    <Link to="/grocery">Grocery</Link>
-                </li>
+                
                
                 <li className="px-8">Cart</li>
                     <button className="login-btn" onClick={()=>{

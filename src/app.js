@@ -10,12 +10,10 @@ import Error from "./components/Error";
 import Restaurant from "./components/Restaurant";
 import LoggedInUserContext from "./utils/LoggedInUserContext";
 import LoginRegister from "./components/LoginRegister";
-// import Grocery from "./components/grocery";
 
 import { createBrowserRouter, Outlet, RouterProvider } from "react-router-dom";
 
 
- const Grocery = lazy(()=>import("./components/grocery"))
 
 const AppLayout = ()=>{
 
@@ -63,10 +61,7 @@ const appRouter =createBrowserRouter ([
         path: "/contact",
         element: <Contact/>,
       },
-      {
-        path: "/grocery",
-        element: <Grocery/>,
-      },
+      
       {
         path: "/auth",  // Add this route for login/register
         element: <LoginRegister />,
