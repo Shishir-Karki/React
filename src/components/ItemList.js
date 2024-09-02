@@ -1,8 +1,19 @@
+import { useDispatch } from "react-redux";
+import { addItem } from "../utils/cartSlice";
 import { CDN_URL } from "../utils/contents";
 
 const ItemList =({items})=>{
 
     console.log(items)
+
+const dispatch = useDispatch();
+
+
+const handleAddItem = (item) =>{
+    //Dispatch an action
+    dispatch(addItem(item))
+    
+}
 
    
 
@@ -26,7 +37,9 @@ const ItemList =({items})=>{
             <p className="text-xs">{item.card.info.description}</p>
             <div className="w-3/12 p-4" >
             <div className="absolute">
-            <button className="p-2 mx-16 rounded-lg bg-white shadow-lg  m-auto">
+            <button className="p-2 mx-16 rounded-lg bg-white shadow-lg  m-auto"
+            onClick = {()=>handleAddItem(item)}
+            >
                     Add +
                 </button>
             </div>

@@ -10,6 +10,20 @@ Will remove unused files for us
 
 
 
+# Redux
+
+Install libraries
+--@reduxjs/toolkit and react-redux
+Build our store
+connect our store to our app
+create a slice(cart)
+dispatch an action
+Selector
+
+
+
+
+
 
 
 

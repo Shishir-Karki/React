@@ -10,7 +10,9 @@ import Error from "./components/Error";
 import Restaurant from "./components/Restaurant";
 import LoggedInUserContext from "./utils/LoggedInUserContext";
 import LoginRegister from "./components/LoginRegister";
-
+import { Provider } from "react-redux";
+import appStore from "./utils/appStore";
+import Cart from "./components/cart";
 import { createBrowserRouter, Outlet, RouterProvider } from "react-router-dom";
 
 
@@ -29,7 +31,8 @@ const AppLayout = ()=>{
   },[])
 
     return(
-        <LoggedInUserContext.Provider value={{loggedInUser: userName, setUserName}}>
+    <Provider store = {appStore}>
+          <LoggedInUserContext.Provider value={{loggedInUser: userName, setUserName}}>
           <div className="app">
             <Header/>
             <Outlet/>
@@ -37,6 +40,7 @@ const AppLayout = ()=>{
             
         </div>
         </LoggedInUserContext.Provider>
+    </Provider>
     )
 }
 
@@ -65,6 +69,11 @@ const appRouter =createBrowserRouter ([
       {
         path: "/auth",  // Add this route for login/register
         element: <LoginRegister />,
+      },
+      
+      {
+        path: "/cart",  
+        element: <Cart/>,
       }
     ]),
     errorElement: <Error/>

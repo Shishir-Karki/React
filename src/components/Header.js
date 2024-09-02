@@ -3,6 +3,8 @@ import { LOGO_URL } from "../utils/contents";
 import { Link } from "react-router-dom";
 import useOnlineStatus from "../utils/useOnlineStatus";
 import LoggedInUserContext from "../utils/LoggedInUserContext";
+import { useSelector } from "react-redux";
+
 const Header =()=>{
 
     const [loginBtn, setloginBtn] = useState("Login");
@@ -13,6 +15,9 @@ const Header =()=>{
     useEffect(() => {
         setUser(loggedInUser);
     }, [loggedInUser]);
+
+const cartItems = useSelector((store) => store.cart.items);
+console.log(cartItems)
     
 
     return (
@@ -36,7 +41,9 @@ const Header =()=>{
                 </li>
                 
                
-                <li className="px-8">Cart</li>
+                <li className="px-8">
+                    <Link to = "/cart">Cart - ({cartItems.length} items)</Link>
+                 </li>
                     <button className="login-btn" onClick={()=>{
                           if (loginBtn === "Login") {
                             setloginBtn("LogOut");

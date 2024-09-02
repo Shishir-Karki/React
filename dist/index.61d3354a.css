@@ -286,6 +286,10 @@ img, video {
   position: absolute;
 }
 
+.m-10 {
+  margin: 2.5rem;
+}
+
 .m-2 {
   margin: .5rem;
 }
@@ -475,6 +479,10 @@ img, video {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.p-10 {
+  padding: 2.5rem;
 }
 
 .p-2 {
