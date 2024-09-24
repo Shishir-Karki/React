@@ -12,7 +12,7 @@ import LoggedInUserContext from "./utils/LoggedInUserContext";
 import LoginRegister from "./components/LoginRegister";
 import { Provider } from "react-redux";
 import appStore from "./utils/appStore";
-import Cart from "./components/cart";
+import Cart from "./components/Cart";
 import { createBrowserRouter, Outlet, RouterProvider } from "react-router-dom";
 
 

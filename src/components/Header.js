@@ -41,7 +41,7 @@ console.log(cartItems)
                 </li>
                 
                
-                <li className="px-8">
+                <li className="px-8 font-bold">
                     <Link to = "/cart">Cart - ({cartItems.length} items)</Link>
                  </li>
                     <button className="login-btn" onClick={()=>{

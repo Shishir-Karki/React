@@ -23,7 +23,7 @@
 75C:\Users\91879\OneDrive\Desktop\React\node_modules\escalade\sync\index.d.ts133690825945338710 0
 117C:\Users\91879\OneDrive\Desktop\React\node_modules\@parcel\optimizer-htmlnano\node_modules\svgo\plugins\cleanupIDs.js133690825947694117 0
 93C:\Users\91879\OneDrive\Desktop\React\node_modules\@parcel\workers\lib\core-worker.browser.js133690825958121874 0
-60C:\Users\91879\OneDrive\Desktop\React\src\utils\cartSlice.js133697335758494410 0
+60C:\Users\91879\OneDrive\Desktop\React\src\utils\cartSlice.js133704241545108886 0
 67C:\Users\91879\OneDrive\Desktop\React\node_modules\type-is\index.js133696018171443844 0
 73C:\Users\91879\OneDrive\Desktop\React\node_modules\@parcel\logger\LICENSE133690825973248958 0
 77C:\Users\91879\OneDrive\Desktop\React\node_modules\@parcel\optimizer-svgo\src133690825963177959 1
@@ -55,7 +55,7 @@
 95C:\Users\91879\OneDrive\Desktop\React\node_modules\csso\node_modules\css-tree\cjs\syntax\atrule133690825990192421 1
 85C:\Users\91879\OneDrive\Desktop\React\node_modules\type-fest\ts41\delimiter-case.d.ts133690825947795073 0
 69C:\Users\91879\OneDrive\Desktop\React\node_modules\dom-serializer\lib133690825950108926 1
-42C:\Users\91879\OneDrive\Desktop\React\dist133697686398589965 1
+42C:\Users\91879\OneDrive\Desktop\React\dist133704248889962691 1
 86C:\Users\91879\OneDrive\Desktop\React\node_modules\any-promise\register\es6-promise.js133694003779315177 0
 83C:\Users\91879\OneDrive\Desktop\React\node_modules\yaml\dist\schema\common\map.d.ts133694003784116523 0
 73C:\Users\91879\OneDrive\Desktop\React\node_modules\jsonwebtoken\README.md133696029463342879 0
@@ -74,7 +74,7 @@
 64C:\Users\91879\OneDrive\Desktop\React\src\components\ItemList.js133697364877143879 0
 116C:\Users\91879\OneDrive\Desktop\React\node_modules\@parcel\optimizer-svgo\node_modules\csso\lib\replace\Dimension.js133690825958475522 0
 66C:\Users\91879\OneDrive\Desktop\React\src\utils\useOnlineStatus.js133695158232762910 0
-52C:\Users\91879\OneDrive\Desktop\React\src\components133697437702405052 1
+52C:\Users\91879\OneDrive\Desktop\React\src\components133704248007516225 1
 72C:\Users\91879\OneDrive\Desktop\React\node_modules\fastq\test\example.ts133694003779093406 0
 115C:\Users\91879\OneDrive\Desktop\React\node_modules\css-select\node_modules\dom-serializer\lib\esm\foreignNames.d.ts133690825980821973 0
 80C:\Users\91879\OneDrive\Desktop\React\node_modules\csso\cjs\clean\WhiteSpace.cjs133690825964792223 0
@@ -96,7 +96,7 @@
 109C:\Users\91879\OneDrive\Desktop\React\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\lexer133690825976017378 1
 82C:\Users\91879\OneDrive\Desktop\React\node_modules\semver\ranges\max-satisfying.js133690825956288284 0
 55C:\Users\91879\OneDrive\Desktop\React\node_modules\yaml133694003783404422 1
-41C:\Users\91879\OneDrive\Desktop\React\src133696710535250087 1
+41C:\Users\91879\OneDrive\Desktop\React\src133704246139526475 1
 70C:\Users\91879\OneDrive\Desktop\React\node_modules\mongodb\lib\bson.js133696017984993425 0
 74C:\Users\91879\OneDrive\Desktop\React\node_modules\normalize-path\index.js133694003777390611 0
 52C:\Users\91879\OneDrive\Desktop\React\src\index.html133696708633273276 0
@@ -115,7 +115,7 @@
 110C:\Users\91879\OneDrive\Desktop\React\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb\mdb_stat.c133690825967602472 0
 79C:\Users\91879\OneDrive\Desktop\React\node_modules\csso\lib\restructure\prepare133690825971694467 1
 84C:\Users\91879\OneDrive\Desktop\React\node_modules\signal-exit\dist\cjs\browser.d.ts133694003779957745 0
-65C:\Users\91879\OneDrive\Desktop\React\dist\index.71200a4f.css.map133697686398539966 0
+65C:\Users\91879\OneDrive\Desktop\React\dist\index.71200a4f.css.map133704248889942683 0
 87C:\Users\91879\OneDrive\Desktop\React\node_modules\tailwindcss\src\value-parser\walk.js133694003784744094 0
 62C:\Users\91879\OneDrive\Desktop\React\node_modules\ansi-styles133690825942130801 1
 82C:\Users\91879\OneDrive\Desktop\React\node_modules\@isaacs\cliui\build\index.d.cts133694003777456429 0
@@ -127,7 +127,7 @@
 62C:\Users\91879\OneDrive\Desktop\React\node_modules\htmlparser2133690825948137888 1
 104C:\Users\91879\OneDrive\Desktop\React\node_modules\css-select\node_modules\domutils\lib\stringify.js.map133690825982897364 0
 125C:\Users\91879\OneDrive\Desktop\React\node_modules\@reduxjs\toolkit\dist\react\cjs\redux-toolkit-react.production.min.cjs.map133696899641451789 0
-48C:\Users\91879\OneDrive\Desktop\React\src\app.js133697438985821546 0
+48C:\Users\91879\OneDrive\Desktop\React\src\app.js133704248482588424 0
 95C:\Users\91879\OneDrive\Desktop\React\node_modules\tailwindcss\lib\util\removeAlphaVariables.js133694003784251839 0
 63C:\Users\91879\OneDrive\Desktop\React\node_modules\glob\LICENSE133694003776992029 0
 72C:\Users\91879\OneDrive\Desktop\React\node_modules\tailwindcss\plugin.js133694003783963905 0
@@ -139,7 +139,7 @@
 75C:\Users\91879\OneDrive\Desktop\React\node_modules\yaml\dist\parse\lexer.js133694003781502898 0
 82C:\Users\91879\OneDrive\Desktop\React\node_modules\caniuse-lite\data\regions\AI.js133690825950282043 0
 91C:\Users\91879\OneDrive\Desktop\React\node_modules\@jridgewell\sourcemap-codec\package.json133694003777823206 0
-47C:\Users\91879\OneDrive\Desktop\React\src\utils133696904717965669 1
+47C:\Users\91879\OneDrive\Desktop\React\src\utils133704246647611518 1
 97C:\Users\91879\OneDrive\Desktop\React\node_modules\caniuse-lite\data\features\css-text-justify.js133690825985936559 0
 83C:\Users\91879\OneDrive\Desktop\React\node_modules\css-tree\cjs\parser\sequence.cjs133690825974125997 0
 74C:\Users\91879\OneDrive\Desktop\React\node_modules\semver\functions\inc.js133690825951211859 0
@@ -148,7 +148,7 @@
 78C:\Users\91879\OneDrive\Desktop\React\node_modules\zod\lib\benchmarks\union.js133696029661819870 0
 76C:\Users\91879\OneDrive\Desktop\React\node_modules\chokidar\lib\constants.js133694003777491128 0
 97C:\Users\91879\OneDrive\Desktop\React\node_modules\ecdsa-sig-formatter\src\param-bytes-for-alg.js133696029463242792 0
-62C:\Users\91879\OneDrive\Desktop\React\src\components\Header.js133697440385106852 0
+62C:\Users\91879\OneDrive\Desktop\React\src\components\Header.js133698178861060569 0
 107C:\Users\91879\OneDrive\Desktop\React\node_modules\css-select\node_modules\domutils\lib\manipulation.js.map133690825982528026 0
 73C:\Users\91879\OneDrive\Desktop\React\node_modules\object-assign\index.js133694003777288060 0
 70C:\Users\91879\OneDrive\Desktop\React\node_modules\ipaddr.js\README.md133696018171673095 0
@@ -206,7 +206,7 @@
 60C:\Users\91879\OneDrive\Desktop\React\src\components\Body.js133695608288953191 0
 65C:\Users\91879\OneDrive\Desktop\React\node_modules\csso\cjs\clean133690825964712644 1
 81C:\Users\91879\OneDrive\Desktop\React\node_modules\mongodb\lib\gridfs\download.js133696017987855683 0
-60C:\Users\91879\OneDrive\Desktop\React\src\components\Cart.js133697685982438972 0
+60C:\Users\91879\OneDrive\Desktop\React\src\components\Cart.js133704248088975645 0
 93C:\Users\91879\OneDrive\Desktop\React\node_modules\yaml\dist\stringify\stringifyDocument.d.ts133694003784444077 0
 107C:\Users\91879\OneDrive\Desktop\React\node_modules\resolve\test\resolver\nested_symlinks\mylib\package.json133694003781961437 0
 72C:\Users\91879\OneDrive\Desktop\React\node_modules\msgpackr\dist\test.js133690825964016546 0
@@ -1735,6 +1735,7 @@
 79C:\Users\91879\OneDrive\Desktop\React\node_modules\yaml\dist\nodes\YAMLSeq.d.ts133694003784584117 0
 82C:\Users\91879\OneDrive\Desktop\React\node_modules\caniuse-lite\data\regions\BF.js133690825968679072 0
 93C:\Users\91879\OneDrive\Desktop\React\node_modules\caniuse-lite\data\features\border-image.js133690825970193844 0
+64C:\Users\91879\OneDrive\Desktop\React\dist\index.c7ab4982.js.map133704248889952741 0
 78C:\Users\91879\OneDrive\Desktop\React\node_modules\mongodb\lib\read_concern.js133696017990109825 0
 84C:\Users\91879\OneDrive\Desktop\React\node_modules\yaml\browser\dist\doc\Document.js133694003781071423 0
 98C:\Users\91879\OneDrive\Desktop\React\node_modules\mongodb\lib\sdam\server_selection_events.js.map133696017996612617 0
@@ -6242,6 +6243,7 @@
 108C:\Users\91879\OneDrive\Desktop\React\node_modules\mongodb\lib\client-side-encryption\providers\azure.js.map133696017993069126 0
 74C:\Users\91879\OneDrive\Desktop\React\node_modules\brace-expansion\LICENSE133694003776960373 0
 104C:\Users\91879\OneDrive\Desktop\React\node_modules\mongodb\lib\client-side-encryption\providers\index.js133696017988719385 0
+60C:\Users\91879\OneDrive\Desktop\React\dist\index.c7ab4982.js133704248889782333 0
 108C:\Users\91879\OneDrive\Desktop\React\node_modules\mongodb\lib\client-side-encryption\providers\index.js.map133696017994998530 0
 81C:\Users\91879\OneDrive\Desktop\React\node_modules\mongodb\lib\bulk\common.js.map133696017993697945 0
 69C:\Users\91879\OneDrive\Desktop\React\node_modules\debug\package.json133696018171117397 0
@@ -7356,7 +7358,7 @@
 84C:\Users\91879\OneDrive\Desktop\React\node_modules\entities\lib\encode-trie.d.ts.map133690825952368095 0
 75C:\Users\91879\OneDrive\Desktop\React\node_modules\entities\lib\encode.d.ts133690825957199538 0
 73C:\Users\91879\OneDrive\Desktop\React\node_modules\entities\lib\encode.js133690825945873813 0
-53C:\Users\91879\OneDrive\Desktop\React\dist\index.html133697686398219944 0
+53C:\Users\91879\OneDrive\Desktop\React\dist\index.html133704248889772329 0
 73C:\Users\91879\OneDrive\Desktop\React\node_modules\entities\lib\generated133690825955521842 1
 61C:\Users\91879\OneDrive\Desktop\React\node_modules\cssesc\bin133694003778219766 1
 102C:\Users\91879\OneDrive\Desktop\React\node_modules\css-select\node_modules\domutils\lib\esm\helpers.js133690825979748091 0
@@ -7580,7 +7582,6 @@
 99C:\Users\91879\OneDrive\Desktop\React\node_modules\css-select\node_modules\dom-serializer\README.md133690825980772037 0
 95C:\Users\91879\OneDrive\Desktop\React\node_modules\csso\node_modules\css-tree\lib\syntax\atrule133690825995823974 1
 95C:\Users\91879\OneDrive\Desktop\React\node_modules\csso\node_modules\css-tree\lib\syntax\config133690825996339462 1
-64C:\Users\91879\OneDrive\Desktop\React\dist\index.2e8d287b.js.map133697686398570007 0
 98C:\Users\91879\OneDrive\Desktop\React\node_modules\csso\node_modules\css-tree\lib\syntax\create.js133690825992005163 0
 69C:\Users\91879\OneDrive\Desktop\React\node_modules\.bin\nodetouch.ps1133696029827171118 0
 97C:\Users\91879\OneDrive\Desktop\React\node_modules\csso\node_modules\css-tree\lib\syntax\function133690825996239173 1
@@ -9693,7 +9694,7 @@
 112C:\Users\91879\OneDrive\Desktop\React\node_modules\@parcel\core\test\fixtures\common-targets-ignore\package.json133690825989304780 0
 76C:\Users\91879\OneDrive\Desktop\React\node_modules\@parcel\utils\src\hash.js133690825968905664 0
 83C:\Users\91879\OneDrive\Desktop\React\node_modules\@parcel\utils\src\http-server.js133690825969004209 0
-61C:\Users\91879\OneDrive\Desktop\React\dist\index.71200a4f.css133697686398249935 0
+61C:\Users\91879\OneDrive\Desktop\React\dist\index.71200a4f.css133704248889772329 0
 89C:\Users\91879\OneDrive\Desktop\React\node_modules\@parcel\utils\src\isDirectoryInside.js133690825972126297 0
 82C:\Users\91879\OneDrive\Desktop\React\node_modules\@parcel\utils\src\objectHash.js133690825972249326 0
 85C:\Users\91879\OneDrive\Desktop\React\node_modules\@parcel\utils\src\openInBrowser.js133690825972423450 0
@@ -10825,4 +10826,3 @@
 71C:\Users\91879\OneDrive\Desktop\React\node_modules\.bin\tailwindcss.ps1133694003785289239 0
 82C:\Users\91879\OneDrive\Desktop\React\node_modules\.bin\update-browserslist-db.ps1133690826230126808 0
 64C:\Users\91879\OneDrive\Desktop\React\node_modules\.bin\yaml.ps1133694003785289239 0
-60C:\Users\91879\OneDrive\Desktop\React\dist\index.2e8d287b.js133697686398269950 0

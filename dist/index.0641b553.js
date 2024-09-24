@@ -2978,7 +2978,7 @@ var _loginRegisterDefault = parcelHelpers.interopDefault(_loginRegister);
 var _reactRedux = require("react-redux");
 var _appStore = require("./utils/appStore");
 var _appStoreDefault = parcelHelpers.interopDefault(_appStore);
-var _cart = require("./components/cart");
+var _cart = require("./components/Cart");
 var _cartDefault = parcelHelpers.interopDefault(_cart);
 var _reactRouterDom = require("react-router-dom");
 var _s = $RefreshSig$();
@@ -3116,7 +3116,7 @@ $RefreshReg$(_c, "AppLayout");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-dom/client":"lOjBx","./components/Header":"hsJbF","./components/Body":"8yaV8","./components/Footer":"8pPOA","./components/AboutUs":"47aps","./components/ContactUs":"dZ839","./components/Error":"kvula","./components/Restaurant":"kZInI","./utils/LoggedInUserContext":"asoDB","./components/LoginRegister":"a5uW2","react-redux":"62sf7","./utils/appStore":"6A5Ux","./components/cart":"97YSD","react-router-dom":"9xmpe","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"iTorj":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-dom/client":"lOjBx","./components/Header":"hsJbF","./components/Body":"8yaV8","./components/Footer":"8pPOA","./components/AboutUs":"47aps","./components/ContactUs":"dZ839","./components/Error":"kvula","./components/Restaurant":"kZInI","./utils/LoggedInUserContext":"asoDB","./components/LoginRegister":"a5uW2","react-redux":"62sf7","./utils/appStore":"6A5Ux","./components/Cart":"h8J3U","react-router-dom":"9xmpe","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"iTorj":[function(require,module,exports) {
 "use strict";
 module.exports = require("ee51401569654d91");
 
@@ -27471,7 +27471,7 @@ const Header = ()=>{
                             columnNumber: 17
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                            className: "px-8",
+                            className: "px-8 font-bold",
                             children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
                                 to: "/cart",
                                 children: [
@@ -37016,14 +37016,12 @@ const cartSlice = (0, _toolkit.createSlice)({
         items: []
     },
     reducers: {
-        //mutating the sate over here
+        //mutating the state over here
         addItem: (state, action)=>{
             state.items.push(action.payload);
         },
         removeItem: (state, action)=>{
-            state.items = state.items.filter((item)=>{
-                item.id, action.payload;
-            });
+            state.items.pop();
         },
         clearCart: (state)=>{
             state.items.length = 0;
@@ -41233,43 +41231,87 @@ const appStore = (0, _toolkit.configureStore)({
 });
 exports.default = appStore;
 
-},{"@reduxjs/toolkit":"fuua8","./cartSlice":"5RXlr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"97YSD":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$8253 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+},{"@reduxjs/toolkit":"fuua8","./cartSlice":"5RXlr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"h8J3U":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$ad24 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$8253.prelude(module);
+$parcel$ReactRefreshHelpers$ad24.prelude(module);
 
 try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _reactRedux = require("react-redux");
+var _cartSlice = require("../utils/cartSlice");
+var _itemList = require("./ItemList");
+var _itemListDefault = parcelHelpers.interopDefault(_itemList);
+var _s = $RefreshSig$();
 const Cart = ()=>{
+    _s();
+    const cartItems = (0, _reactRedux.useSelector)((store)=>store.cart.items);
+    const dispatch = (0, _reactRedux.useDispatch)();
+    const handleClearCart = ()=>{
+        dispatch((0, _cartSlice.clearCart)());
+    };
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: "cart text-center m-10 p-10 ",
-        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-            className: "font-bold",
-            children: "Cat"
-        }, void 0, false, {
-            fileName: "src/components/cart.js",
-            lineNumber: 4,
-            columnNumber: 13
-        }, undefined)
-    }, void 0, false, {
-        fileName: "src/components/cart.js",
-        lineNumber: 3,
+        className: "cart text-center m-10 p-10  ",
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                className: "font-bold",
+                children: "Cat"
+            }, void 0, false, {
+                fileName: "src/components/Cart.js",
+                lineNumber: 14,
+                columnNumber: 13
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "w-6/12 m-auto",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                        onClick: handleClearCart,
+                        className: "p-2 m-2 bg-black text-white rounded-lg",
+                        children: "Clear cart"
+                    }, void 0, false, {
+                        fileName: "src/components/Cart.js",
+                        lineNumber: 16,
+                        columnNumber: 12
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _itemListDefault.default), {
+                        items: cartItems
+                    }, void 0, false, {
+                        fileName: "src/components/Cart.js",
+                        lineNumber: 19,
+                        columnNumber: 13
+                    }, undefined)
+                ]
+            }, void 0, true, {
+                fileName: "src/components/Cart.js",
+                lineNumber: 15,
+                columnNumber: 12
+            }, undefined)
+        ]
+    }, void 0, true, {
+        fileName: "src/components/Cart.js",
+        lineNumber: 13,
         columnNumber: 9
     }, undefined);
 };
+_s(Cart, "ClsVU7OzYQ50hVvtHIih2dVFL+s=", false, function() {
+    return [
+        (0, _reactRedux.useSelector),
+        (0, _reactRedux.useDispatch)
+    ];
+});
 _c = Cart;
 exports.default = Cart;
 var _c;
 $RefreshReg$(_c, "Cart");
 
-  $parcel$ReactRefreshHelpers$8253.postlude(module);
+  $parcel$ReactRefreshHelpers$ad24.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}]},["gbXMy","1xC6H","bNKaB"], "bNKaB", "parcelRequire77dd")
+},{"react/jsx-dev-runtime":"iTorj","react-redux":"62sf7","./ItemList":"kZjho","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../utils/cartSlice":"5RXlr"}]},["gbXMy","1xC6H","bNKaB"], "bNKaB", "parcelRequire77dd")
 
 //# sourceMappingURL=index.0641b553.js.map
